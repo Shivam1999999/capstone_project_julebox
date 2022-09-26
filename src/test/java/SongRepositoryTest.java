@@ -57,17 +57,6 @@ class SongRepositoryTest {
         Assertions.assertNotEquals(expectedResult, actualResult);
 
     }
-
-    /*@Test
-    void givenNameOfArtistAndReturnListOfSong() throws SQLException {
-
-        String expectedResult = "[Song{songId=101, songName='SoftPiano', artistName=Capstone',genre='Instru', duration='02:56',  songPath='src/main/resources/Song1.wav'}}]";
-        String actualResult = songRepository.getAll(connection).toString();
-        Assertions.assertEquals(expectedResult, actualResult);
-
-
-    }*/
-
     @Test
     void givenNameOfArtistAndFailedToReturnListOfSong() throws SQLException {
 

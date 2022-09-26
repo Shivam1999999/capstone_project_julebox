@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="test case is generated">
+    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="Reformatted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/PlaylistNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/PlaylistNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/SongNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/SongNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SongRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SongRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +51,7 @@
       <recent name="com.niit.jdp.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SongRepositoryTest">
+  <component name="RunManager" selected="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.jdp.Main" />
       <module name="capstone_project_julebox" />
@@ -109,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SongRepositoryTest" />
         <item itemvalue="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SongRepositoryTest" />
         <item itemvalue="JUnit.PlaylistRepositoryTest" />
         <item itemvalue="JUnit.DatabaseServiceTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664184157996</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Reformatted">
+      <created>1664189256029</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1664189256029</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +367,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create a class MusicPlayerRepository.java" />
     <MESSAGE value="create a class PlayListRepository.Interface" />
     <MESSAGE value="create a class SongRepository.java" />
     <MESSAGE value="create a class SongRepository.Interface" />
@@ -390,6 +391,10 @@
     <MESSAGE value="implement try and catch blocks" />
     <MESSAGE value="giving switch condition" />
     <MESSAGE value="test case is generated" />
-    <option name="LAST_COMMIT_MESSAGE" value="test case is generated" />
+    <MESSAGE value="Reformatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
