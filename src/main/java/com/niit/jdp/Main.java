@@ -33,7 +33,6 @@ public class Main {
             System.out.println("*<---------------------------------------->*");
 
             Scanner scanner = new Scanner(System.in);
-
             System.out.print("Please choose according your wish: ");
             choice = scanner.nextInt();
 
