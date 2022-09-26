@@ -6,6 +6,9 @@ import com.niit.jdp.model.Playlist;
 import java.sql.*;
 import java.util.List;
 
+/**
+ * It implements the Repository interface and provides the implementation for the methods defined in the interface
+ */
 public class PlaylistRepository implements Repository <Playlist> {
 
     @Override
