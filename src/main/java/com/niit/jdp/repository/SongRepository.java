@@ -63,6 +63,7 @@ public class SongRepository<S> implements Repository<Song> {
     }
 
     @Override
+    // A method that is used to delete the song by its id from the database.
     public boolean deleteById(Connection connection, int id) throws SQLException {
         String deleteQuery = "DELETE FROM `jukebox`.`song` WHERE (`song_id` = ?);";
         int numberOfRowsAffected;
