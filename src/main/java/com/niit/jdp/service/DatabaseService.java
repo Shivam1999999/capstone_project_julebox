@@ -4,6 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * This class is used to connect to the database
+ */
 public class DatabaseService {
 
     // This is the URL of the database.
