@@ -55,7 +55,6 @@ public class Main {
                         break;
                     }
                     case 2: {
-
                         System.out.println();
                         playlistRepository.getAll(connection);
                         System.out.println("-------------------------------------------------------");
