@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="Checking if the object is equal to the current object." />
+    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="docs are generated for create a playlist">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/PlaylistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/repository/PlaylistRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +184,42 @@
       <option name="project" value="LOCAL" />
       <updated>1664172118512</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="A method that returns a hash code value for the object. This method is supported for the benefit of hash tables such&#10;    // as those provided by HashMap">
+      <created>1664172267220</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172267221</updated>
+    </task>
+    <task id="LOCAL-00017" summary="A method that returns a string representation of the object. In general, the toString method returns a string that&#10;     &quot;textually represents&quot; this object. The result should be a concise but informative representation that is easy for a&#10;     person to read. It is recommended that all subclasses override this method.">
+      <created>1664172295553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172295553</updated>
+    </task>
+    <task id="LOCAL-00018" summary="docs are generated">
+      <created>1664172334273</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172334273</updated>
+    </task>
+    <task id="LOCAL-00019" summary="A method which is used to get all the playlists from the database.">
+      <created>1664172403533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172403533</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implement try and catch">
+      <created>1664172433567</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172433567</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +248,12 @@
     <MESSAGE value="docs are generated for SongNotFoundException" />
     <MESSAGE value="docs are generated for PlaylistNotFoundException" />
     <MESSAGE value="Checking if the object is equal to the current object." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checking if the object is equal to the current object." />
+    <MESSAGE value="A method that returns a hash code value for the object. This method is supported for the benefit of hash tables such&#10;    // as those provided by HashMap" />
+    <MESSAGE value="A method that returns a string representation of the object. In general, the toString method returns a string that&#10;     &quot;textually represents&quot; this object. The result should be a concise but informative representation that is easy for a&#10;     person to read. It is recommended that all subclasses override this method." />
+    <MESSAGE value="docs are generated" />
+    <MESSAGE value="A method which is used to get all the playlists from the database." />
+    <MESSAGE value="implement try and catch" />
+    <MESSAGE value="docs are generated for create a playlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs are generated for create a playlist" />
   </component>
 </project>
