@@ -67,6 +67,9 @@ public class Playlist {
     }
 
     @Override
+    // A method that returns a string representation of the object. In general, the toString method returns a string that
+    // "textually represents" this object. The result should be a concise but informative representation that is easy for a
+    // person to read. It is recommended that all subclasses override this method.
     public String toString() {
         return "Playlist{" +
                 "playlistId=" + playlistId +
