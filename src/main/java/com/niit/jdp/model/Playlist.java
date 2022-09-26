@@ -60,6 +60,8 @@ public class Playlist {
     }
 
     @Override
+    // A method that returns a hash code value for the object. This method is supported for the benefit of hash tables such
+    // as those provided by HashMap.
     public int hashCode() {
         return Objects.hash(playlistId, playlistName, songId, songName);
     }

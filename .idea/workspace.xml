@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="docs are generated for MusicPlayerService">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="Checking if the object is equal to the current object." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +154,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664170917957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="docs are generated for MusicPlayerService">
+      <created>1664171971047</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664171971047</updated>
+    </task>
+    <task id="LOCAL-00013" summary="docs are generated for SongNotFoundException">
+      <created>1664172023988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172023988</updated>
+    </task>
+    <task id="LOCAL-00014" summary="docs are generated for PlaylistNotFoundException">
+      <created>1664172068364</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172068364</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Checking if the object is equal to the current object.">
+      <created>1664172118511</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664172118512</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +208,9 @@
     <MESSAGE value="create a class SongRepository.Interface" />
     <MESSAGE value="create a class DatabaseConnectionService.java" />
     <MESSAGE value="docs are generated for MusicPlayerService" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs are generated for MusicPlayerService" />
+    <MESSAGE value="docs are generated for SongNotFoundException" />
+    <MESSAGE value="docs are generated for PlaylistNotFoundException" />
+    <MESSAGE value="Checking if the object is equal to the current object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking if the object is equal to the current object." />
   </component>
 </project>
