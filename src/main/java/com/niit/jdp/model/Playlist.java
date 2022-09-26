@@ -51,6 +51,7 @@ public class Playlist {
     }
 
     @Override
+    // Checking if the object is equal to the current object.
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
