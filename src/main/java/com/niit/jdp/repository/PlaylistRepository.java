@@ -16,6 +16,7 @@ public class PlaylistRepository implements Repository <Playlist> {
     public List<Playlist> getAll(Connection connection) throws SQLException {
         String readQuery = "SELECT * FROM `jukebox`.`playlist`;";
         ResultSet resultSet;
+
         try (Statement statement = connection.createStatement()) {
             resultSet = statement.executeQuery(readQuery);
             while (resultSet.next()) {
