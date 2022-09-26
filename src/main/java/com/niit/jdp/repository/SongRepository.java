@@ -7,6 +7,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * It's a class that implements the Repository interface and provides a concrete implementation of the methods defined in
+ * the interface
+ */
 public class SongRepository<S> implements Repository<Song> {
     @Override
     public List<Song> getAll(Connection connection) throws SQLException {
