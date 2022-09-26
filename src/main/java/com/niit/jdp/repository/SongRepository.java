@@ -13,6 +13,7 @@ import java.util.List;
  */
 public class SongRepository<S> implements Repository<Song> {
     @Override
+    // A method that is used to get all the songs from the database.
     public List<Song> getAll(Connection connection) throws SQLException {
         String readQuery = "SELECT * FROM `jukebox`.`song`;";
         List<Song> songsList = new ArrayList<>();
