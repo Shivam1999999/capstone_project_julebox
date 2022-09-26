@@ -16,7 +16,7 @@ public class MusicPlayerService {
      * This function is used to play the song from the playlist
      *
      * @param //connection The connection object to the database.
-     * @param //songPath The path of the song to be played.
+     * @param //songPath   The path of the song to be played.
      */
     public void play(Connection connection, String songPath) throws SQLException {
 

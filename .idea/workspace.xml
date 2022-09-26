@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="giving switch condition">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlaylistRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SongRepositoryTest.java" afterDir="false" />
+    <list default="true" id="1b54175b-0ca5-4dc3-9fbe-d0660cddb602" name="Changes" comment="test case is generated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/PlaylistNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/PlaylistNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/SongNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/exception/SongNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/model/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SongRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SongRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="com.niit.jdp.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong">
+  <component name="RunManager" selected="JUnit.SongRepositoryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.jdp.Main" />
       <module name="capstone_project_julebox" />
@@ -107,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong" />
         <item itemvalue="JUnit.SongRepositoryTest" />
+        <item itemvalue="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong" />
         <item itemvalue="JUnit.PlaylistRepositoryTest" />
         <item itemvalue="JUnit.DatabaseServiceTest" />
         <item itemvalue="Application.Main" />
@@ -341,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664172893723</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test case is generated">
+      <created>1664184157996</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664184157996</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create a class Song.java" />
     <MESSAGE value="create a class MusicPlayerRepository.java" />
     <MESSAGE value="create a class PlayListRepository.Interface" />
     <MESSAGE value="create a class SongRepository.java" />
@@ -381,6 +389,7 @@
     <MESSAGE value="implement scanner" />
     <MESSAGE value="implement try and catch blocks" />
     <MESSAGE value="giving switch condition" />
-    <option name="LAST_COMMIT_MESSAGE" value="giving switch condition" />
+    <MESSAGE value="test case is generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="test case is generated" />
   </component>
 </project>

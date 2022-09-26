@@ -6,7 +6,7 @@ package com.niit.jdp.exception;
  * sets the exceptionMessage to a custom message. It also has a getter method for the exceptionMessage
  */
 public class PlaylistNotFoundException extends Exception {
-    private String exceptionMessage;
+    private final String exceptionMessage;
 
     public PlaylistNotFoundException(String s) {
         exceptionMessage = "Playlist is not found in the Database";

@@ -71,11 +71,6 @@ public class Playlist {
     // "textually represents" this object. The result should be a concise but informative representation that is easy for a
     // person to read. It is recommended that all subclasses override this method.
     public String toString() {
-        return "Playlist{" +
-                "playlistId=" + playlistId +
-                ", playlistName='" + playlistName + '\'' +
-                ", songId=" + songId +
-                ", songName='" + songName + '\'' +
-                '}';
+        return "Playlist{" + "playlistId=" + playlistId + ", playlistName='" + playlistName + '\'' + ", songId=" + songId + ", songName='" + songName + '\'' + '}';
     }
 }

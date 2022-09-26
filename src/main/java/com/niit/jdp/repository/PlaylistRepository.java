@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * It implements the Repository interface and provides the implementation for the methods defined in the interface
  */
-public class PlaylistRepository implements Repository <Playlist> {
+public class PlaylistRepository implements Repository<Playlist> {
 
     @Override
     // A method which is used to get all the playlists from the database.
@@ -32,10 +32,10 @@ public class PlaylistRepository implements Repository <Playlist> {
      * This function takes a connection, a playlist name, a song id, and a song name as parameters and inserts a new row
      * into the playlist table with the given playlist name, song id, and song name
      *
-     * @param //connection The connection to the database.
+     * @param //connection   The connection to the database.
      * @param //playlistName The name of the playlist
-     * @param //songId The id of the song you want to add to the playlist.
-     * @param //songName The name of the song to be added to the playlist.
+     * @param //songId       The id of the song you want to add to the playlist.
+     * @param //songName     The name of the song to be added to the playlist.
      * @return The number of rows affected by the query.
      */
     public boolean createPlaylist(Connection connection, String playlistName, int songId, String songName) throws SQLException {
