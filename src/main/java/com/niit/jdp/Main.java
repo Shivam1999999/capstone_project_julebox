@@ -15,6 +15,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * The above function is the main function of the program. It is the entry point of the program.
+     */
     public static void main(String[] args) {
         int choice;
         do {
