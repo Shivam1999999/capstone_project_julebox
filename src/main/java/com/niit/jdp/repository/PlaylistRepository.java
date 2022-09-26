@@ -75,6 +75,7 @@ public class PlaylistRepository implements Repository <Playlist> {
     }
 
     @Override
+    // Deleting a playlist by its id from the database.
     public boolean deleteById(Connection connection, int id) throws SQLException {
         String deleteQuery = "DELETE FROM `jukebox`.`playlist` WHERE (`playlist_id` = ?);";
         int numberOfRowsAffected;
