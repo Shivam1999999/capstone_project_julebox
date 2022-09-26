@@ -51,7 +51,7 @@
       <recent name="com.niit.jdp.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong">
+  <component name="RunManager" selected="JUnit.SongRepositoryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.jdp.Main" />
       <module name="capstone_project_julebox" />
@@ -104,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SongRepositoryTest" />
         <item itemvalue="JUnit.SongRepositoryTest.givenNameOfArtistAndReturnListOfSong" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SongRepositoryTest" />
         <item itemvalue="JUnit.PlaylistRepositoryTest" />
         <item itemvalue="JUnit.DatabaseServiceTest" />
       </list>
