@@ -12,6 +12,7 @@ import java.util.List;
 public class PlaylistRepository implements Repository <Playlist> {
 
     @Override
+    // A method which is used to get all the playlists from the database.
     public List<Playlist> getAll(Connection connection) throws SQLException {
         String readQuery = "SELECT * FROM `jukebox`.`playlist`;";
         ResultSet resultSet;
