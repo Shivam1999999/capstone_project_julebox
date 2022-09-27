@@ -42,7 +42,7 @@ public class Main {
                 System.out.println(connect);
                 databaseService.printConnectionStatus();
                 Connection connection = databaseService.getConnection();
-                SongRepository<Song> songRepository = new SongRepository<Song>();
+                SongRepository<Song> songRepository = new SongRepository<>();
                 PlaylistRepository playlistRepository = new PlaylistRepository();
                 MusicPlayerService musicPlayerService = new MusicPlayerService();
 
