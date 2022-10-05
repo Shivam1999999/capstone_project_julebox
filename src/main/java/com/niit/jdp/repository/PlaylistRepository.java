@@ -28,14 +28,14 @@ public class PlaylistRepository implements Repository<Playlist> {
     }
 
 
-    /**
+    /*
      * This function takes a connection, a playlist name, a song id, and a song name as parameters and inserts a new row
      * into the playlist table with the given playlist name, song id, and song name
      * <p>
-     * //@param //connection   The connection to the database.
-     * //@param //playlistName The name of the playlist
-     * //@param //songId       The id of the song you want to add to the playlist.
-     * //@param //songName     The name of the song to be added to the playlist.
+     * @param connection   The connection to the database.
+     * @param playlistName The name of the playlist
+     * @param songId       The id of the song you want to add to the playlist.
+     * @param songName     The name of the song to be added to the playlist.
      *
      * @return The number of rows affected by the query.
      */

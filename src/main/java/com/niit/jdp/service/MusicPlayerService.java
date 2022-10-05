@@ -32,12 +32,12 @@ public class MusicPlayerService {
             songPath = "src/main/resources/Song1.wav";
         } else if (songID == 102) {
             songPath = "src/main/resources/Song2.wav";
-        } else if (songID == 3) {
-            songPath = "src/main/resources/songs/song3.wav";
-        } else if (songID == 4) {
-            songPath = "src/main/resources/songs/song4.wav";
-        } else if (songID == 5) {
-            songPath = "src/main/resources/songs/song5.wav";
+        } else if (songID == 103) {
+            songPath = "src/main/resources/Song3.wav";
+        } else if (songID == 104) {
+            songPath = "src/main/resources/Song4.wav";
+        } else if (songID == 105) {
+            songPath = "src/main/resources/Song5.wav";
         }
         File file = new File(songPath);
 
@@ -47,19 +47,18 @@ public class MusicPlayerService {
             clip.open(audioInputStream);
             clip.start();
             Scanner scanner = new Scanner(System.in);
-            int input;
-            int temp = 0;
+            String input;
             long Clip = 0;
-            while (temp == 0) {
+            while (true) {
                 System.out.println("Enter your choice");
-                System.out.println("PRESS --2-- to PAUSE");
-                System.out.println("PRESS --4-- to RESUME");
-                System.out.println("PRESS --6-- to RESTART");
-                System.out.println("PRESS --8-- to QUIT");
+                System.out.println("Write (P Button) to PAUSE");
+                System.out.println("Write (S Button) to RESUME");
+                System.out.println("Write (R Button) to RESTART");
+                System.out.println("Write (Q Button)to QUIT");
 
-                input = scanner.nextInt();
+                input = scanner.next();
                 switch (input) {
-                    case 2: {
+                    case "P": {
                         Clip = clip.getMicrosecondPosition();
                         clip.stop();
                         System.out.println("<<=================================>>");
@@ -67,7 +66,7 @@ public class MusicPlayerService {
                         System.out.println("<<=================================>>");
                         break;
                     }
-                    case 4: {
+                    case "S": {
                         clip.setMicrosecondPosition(Clip);
                         clip.start();
                         System.out.println("<<======================================>>");
@@ -75,7 +74,7 @@ public class MusicPlayerService {
                         System.out.println("<<=======================================>>");
                         break;
                     }
-                    case 6: {
+                    case "R": {
                         clip.setMicrosecondPosition(0);
                         clip.start();
                         System.out.println("<<=======================================>>");
@@ -83,7 +82,7 @@ public class MusicPlayerService {
                         System.out.println("<<=======================================>>");
                         break;
                     }
-                    case 8: {
+                    case "Q": {
                         clip.stop();
                         System.out.println("<<=====================================>>");
                         System.out.println("Exit");

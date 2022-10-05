@@ -26,29 +26,6 @@ public class Playlist {
         this.playlistId = playlistId;
     }
 
-    public String getPlaylistName() {
-        return playlistName;
-    }
-
-    public void setPlaylistName(String playlistName) {
-        this.playlistName = playlistName;
-    }
-
-    public int getSongId() {
-        return songId;
-    }
-
-    public void setSongId(int songId) {
-        this.songId = songId;
-    }
-
-    public String getSongName() {
-        return songName;
-    }
-
-    public void setSongName(String songName) {
-        this.songName = songName;
-    }
 
     @Override
     // Checking if the object is equal to the current object.
